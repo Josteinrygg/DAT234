@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 echo "Please Enter the subnet"
 read SUBNET
-touch adress.txt
-echo $adress > adress.txt
 c=0
 touch replied.txt
 echo "Ip's which replied: " > replied.txt
@@ -17,3 +15,4 @@ then
 	fi
 done
 cat replied.txt
+rm replied.txt
