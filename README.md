@@ -1,3 +1,3 @@
 # DAT234
 
-Scripting & Hacking
+Scripting & Hacking Høst 2019
