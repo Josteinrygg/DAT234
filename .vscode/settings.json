@@ -1,0 +1,6 @@
+{
+    "terminal.integrated.automationShell.osx": "/usr/local/bin/powershell",
+    "powershell.scriptAnalysis.enable": true,
+    "powershell.integratedConsole.focusConsoleOnExecute":  true,
+    
+}
