@@ -10,6 +10,9 @@ def task2():
     re.sub('(http|https)://[\w-]+(.[\w-]+)+\S*')
 
 
+task1()
+
+
 
 
 
