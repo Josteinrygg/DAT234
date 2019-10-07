@@ -16,7 +16,7 @@ def task2():
         count = len(re.findall("http:", test_str))
 
         # Skriver ut resultatet
-        print("Antall http i stringen er : "
+        print("Antall http: i stringen er : "
               + str(count))
 
 task2()
@@ -29,7 +29,7 @@ def task21():
         count = len(re.findall("https:", test_str))
 
         # Skriver ut resultatet
-        print("Antall http i stringen er : "
+        print("Antall https: i stringen er : "
               + str(count))
 
 task21()
