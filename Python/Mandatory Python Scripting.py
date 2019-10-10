@@ -4,10 +4,10 @@ import re
 
 def task1():
 
-    r = requests.get('https://google.com'
+    r = requests.get('https://google.com')
     text = r.text
-    list = re.findall('title>(.+?)</title', text)
+    list1 = re.findall('title>(.+?)</title', text)
 
-    print(list)
+    print(list1)
 
 task1()
