@@ -84,7 +84,7 @@ def task5():
 if __name__ == '__main__':
     print("\n")
     print("\n")
-    
+
     print('TASK 1')
     task1()
     print("\n")
@@ -95,17 +95,17 @@ if __name__ == '__main__':
     print("\n")
     print("\n")
 
-    print('TASK 2')
+    print('TASK 3')
     task3()
     print("\n")
     print("\n")
 
-    print('TASK 2')
+    print('TASK 4')
     task4()
     print("\n")
     print("\n")
 
-    print('TASK 2')
+    print('TASK 5')
     task5()
     print("\n")
     print("\n")
