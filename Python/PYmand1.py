@@ -33,6 +33,7 @@ def task5():
         # Finner alle links med https.
         https = re.findall('https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', test_str)
 
+        # Printer kun unike links.
         output = []
         for x in https:
             if x not in output:
@@ -42,6 +43,7 @@ def task5():
         # Finner alle links med http.
         http = re.findall('http?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+', test_str)
 
+        # Printer kun unike links.
         output = []
         for x in http:
             if x not in output:
