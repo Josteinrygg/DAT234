@@ -1,20 +1,16 @@
 import requests
 import re
 
-links = ['https://tech.co', 'https://nrkbeta.no', 'https://github.com']
-
-title_search = re.search('<title>(.*)</title>', links)
-
-if title_search:
-    title = title_search.group(1)
-
-"""
-for url in links:
+urls = ['https://tech.co', 'https://nrkbeta.no', 'https://github.com']
+for url in urls:
     page = requests.get(url)
     print(page.text)
-"""
 
-"""
+
+
+
+
+
 'https://fonts.googleapis.com', 'https://techcrunch.com', 'https://www.vice.com',
 'https://www.theregister.co.uk', 'https://blog.hackeriet.no', 'https://refsdalolsen.com',
 'https://blog.jessfraz.com', 'https://carolynvanslyck.com', 'http://blog.disapped.com',
@@ -28,4 +24,3 @@ for url in links:
 'https://bolig.sia.no', 'https://uia.instructure.com', 'https://fsweb.no', 'https://cloud.timeedit.net',
 'https://e5.onthehub.com', 'https://video.uia.no', 'http://cair.datapor.no',
 'http://blog.disapped.com', 'http://netsec.ws', 'http://fcc.io', 'http://exif.regex.info', 'http://cair.datapor.no'
-"""
