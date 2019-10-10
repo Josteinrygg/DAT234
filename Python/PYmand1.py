@@ -82,11 +82,35 @@ def task5():
 
 
 if __name__ == '__main__':
+    print("\n")
+    print("\n")
+    
+    print('TASK 1')
     task1()
+    print("\n")
+    print("\n")
+
+    print('TASK 2')
     task2()
+    print("\n")
+    print("\n")
+
+    print('TASK 2')
     task3()
+    print("\n")
+    print("\n")
+
+    print('TASK 2')
     task4()
+    print("\n")
+    print("\n")
+
+    print('TASK 2')
     task5()
+    print("\n")
+    print("\n")
+
+
 
 
 
