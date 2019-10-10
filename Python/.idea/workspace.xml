@@ -4,6 +4,7 @@
     <list default="true" id="0ac57b01-233f-44bc-9418-1573e4a7c7ca" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HenrikScritp.py" beforeDir="false" afterPath="$PROJECT_DIR$/HenrikScritp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PYmand1.py" beforeDir="false" afterPath="$PROJECT_DIR$/PYmand1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +43,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HenrikScritp">
+  <component name="RunManager" selected="Python.PYmand1">
     <configuration type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
