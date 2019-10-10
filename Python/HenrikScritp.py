@@ -6,5 +6,6 @@ def task1():
     print(r.text)
 
 def task4():
+    host = len(re.findall("Head", test_str))
+    print(str(host))
 
-task1()
