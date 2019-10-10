@@ -3,6 +3,8 @@ import re
 
 
 def task1():
+    print("Denne tasken printer ut Unicode fra https://links.datapor.no:")
+    print("\n")
     r = requests.get('https://links.datapor.no')
     print(r.text)
 
@@ -31,7 +33,7 @@ def task2():
 
 
 def task3():
-    
+    print('Dette er alle de unike TLD i den requestede URLen')
     r = requests.get('https://links.datapor.no')
     text = r.text
     string = str(text)
@@ -95,31 +97,27 @@ def task5():
 
 if __name__ == '__main__':
     print("\n")
-    print("\n")
 
     print('TASK 1')
     task1()
-    print("\n")
     print("\n")
 
     print('TASK 2')
     task2()
     print("\n")
-    print("\n")
 
     print('TASK 3')
     task3()
     print("\n")
-    print("\n")
 
     print('TASK 4')
+    print("Dette er alle domenene hentet fra https://links.datapor.no:")
     task4()
-    print("\n")
     print("\n")
 
     print('TASK 5')
+    print("Her er alle de unike HTML tagsene hentet fra https://links.datapor.no:")
     task5()
-    print("\n")
     print("\n")
 
 
