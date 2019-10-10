@@ -1,12 +1,12 @@
 import requests
 import re
 
-r = requests.get('https://links.datapor.no')
-test_str = r.text
-string = str(test_str)
-matches = re.findall(r'(.com)', string)
-output = []
-for x in matches:
-    if x not in output:
-        output.append(x)
-print(output)
+links = ['https://tech.co', 'https://nrkbeta.no', 'https://github.com',
+         'https://fonts.googleapis.com', 'https://techcrunch.com', 'https://www.vice.com',
+         'https://www.theregister.co.uk', 'https://blog.hackeriet.no', 'https://refsdalolsen.com',
+         ]
+for url in links:
+    page = requests.get(url)
+    print(page.text)
+
+
