@@ -4,7 +4,7 @@ import re
 
 def task1():
 
-    r = requests.get('https://tech.co/')
+    r = requests.get('https://google.com')
     text = r.text
     string = str(text)
     list = re.findall('title>(.+?)</title', text)
